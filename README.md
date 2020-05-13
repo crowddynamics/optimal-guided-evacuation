@@ -5,7 +5,6 @@ Folders in the repository:
 * crowddynamics-simulation contains files for running the GUI
 * crowddynamics-qtgui contains the files that build the GUI
 * crowddynamics contains all files for simulating the movement of a crowd
-* data includes the obtained simulation data that has been presented in the article
 * genetic algorithm includes files to run the genetic algorithm
 * simulation files includes files specific for the simulating the conference building and hexagon-shaped area
 
