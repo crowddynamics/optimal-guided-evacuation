@@ -1,0 +1,9 @@
+# https://docs.readthedocs.io/en/latest/yaml-config.html
+
+formats:
+    - none
+
+requirements_file: requirements-docs.txt
+
+python:
+  version: "3.5"

@@ -1,0 +1,12 @@
+
+[run]
+source = crowddynamics
+omit =
+    */__init__.py,
+    */conftest.py,
+    */tests/*,
+    docs/*,
+    */_version.py
+
+    # Remove once numba jitted functions coverage works
+    */core/*

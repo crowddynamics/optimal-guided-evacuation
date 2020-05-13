@@ -1,0 +1,31 @@
+# Install env with command:
+# conda env create -f environment.yml
+
+name: optimal-guided-evacuation
+channels:
+    - conda-forge
+#    - intel
+dependencies:
+    - python=3.6
+    - numpy
+    - numba
+    - scipy
+    - scikit-image
+    - shapely
+    - matplotlib
+    - bokeh
+    - pip:
+        - configobj
+        - loggingtools
+        - git+https://github.com/jaantollander/cell_lists.git
+        - typing
+        - sortedcontainers
+        - anytree
+        - ruamel.yaml
+        - scikit-fmm
+        - click
+        - colorama
+        - colorlog
+        - traitlets
+        - traittypes
+        - diskcache

@@ -1,0 +1,4 @@
+# crowddynamics
+traitlets
+PyQt4  # Install from conda-forge channel
+pyqtgraph==0.10.0
