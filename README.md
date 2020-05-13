@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3824028.svg)](https://doi.org/10.5281/zenodo.3824028)
 
-Research code used in von Schantz & Ehtamo "Minimizing the evacuation time of a crowd from a complex building using rescue guides". The repository includes code for simulation, data analysis and visual representation of data.
+Research code and data (for data click on DOI identifier) used in von Schantz & Ehtamo "Minimizing the evacuation time of a crowd from a complex building using rescue guides". The repository includes code for simulation, data analysis and visual representation of data.
 
 Folders in the repository:
 * crowddynamics-simulation contains files for running the GUI
