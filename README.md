@@ -13,7 +13,7 @@ The repository includes codes for the GA, simulation and a graphical user interf
 * genetic algorithm includes files to run the genetic algorithm
 * simulation files includes files specific for the simulating the conference building and hexagon-shaped area
 
-The evacuation simulation is implemented in Python and the GA are bash scripts that were run on a high performance computing cluster. It should be noted that the procedure is currently computationally very demanding.
+The evacuation simulation is implemented in Python and the GA is implemented as bash scripts that were run on a high performance computing cluster. It should be noted that the procedure is currently computationally very demanding.
 
 See the "readme.txt" file in each folder for a more detailed overview of the codes in each folder. The repository is based on research assistant Jaan Tollander's codes https://github.com/jaantollander/crowddynamics and https://github.com/jaantollander/crowddynamics-qtgui, which he created when he was working in our research group in Aalto University School of Science, Department of Mathematics and Systems Analysis summers 2016 and 2017.
 
