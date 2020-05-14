@@ -2,14 +2,18 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3824028.svg)](https://doi.org/10.5281/zenodo.3824028)
 
-Research code and data (for data click on DOI identifier) used in von Schantz & Ehtamo "Minimizing the evacuation time of a crowd from a complex building using rescue guides". The repository includes code for simulation, data analysis and visual representation of data.
+Research code and data (for data click on DOI identifier) used in von Schantz & Ehtamo. (to appear). <em>Minimizing the evacuation time of a crowd from a complex building using rescue guides</em>. 
 
-Folders in the repository:
+The paper presents a procedure for solving the minimum time evacuation from a complex building using rescue guides, and this repository is its implementation. The crowd is modeled with the physics-inspired agent-based social force model. The solution procedure is a combined Monte Carlo simulation and genetic algorithm (GA). The GA iteratively searches for the optimal evacuation plan, while the evacuation plan is evaluated with Monte Carlo simulations.
+
+The repository includes codes for the GA, simulation and a graphical user interface (GUI). The folders in the repository:
 * crowddynamics-simulation contains files for running the GUI
 * crowddynamics-qtgui contains the files that build the GUI
 * crowddynamics contains all files for simulating the movement of a crowd
 * genetic algorithm includes files to run the genetic algorithm
 * simulation files includes files specific for the simulating the conference building and hexagon-shaped area
+
+The evacuation simulation is implemented in Python and the GA are bash scripts that were run on a high performance computing cluster. It should be noted that the procedure is currently computationally very demanding.
 
 See the "readme.txt" file in each folder for a more detailed overview of the codes in each folder. The repository is based on research assistant Jaan Tollander's codes https://github.com/jaantollander/crowddynamics and https://github.com/jaantollander/crowddynamics-qtgui, which he created when he was working in our research group in Aalto University School of Science, Department of Mathematics and Systems Analysis summers 2016 and 2017.
 
