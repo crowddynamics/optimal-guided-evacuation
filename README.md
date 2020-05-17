@@ -1,6 +1,7 @@
 # optimal-guided-evacuation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3824028.svg)](https://doi.org/10.5281/zenodo.3824028)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3831338.svg)](https://doi.org/10.5281/zenodo.3831338)
+
 
 Research code and data (for data click on DOI identifier) used in von Schantz & Ehtamo. (under revision). <em>Minimizing the evacuation time of a crowd from a complex building using rescue guides</em>. 
 
