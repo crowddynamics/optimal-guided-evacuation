@@ -5,7 +5,7 @@
 
 Research code and data (for data click on DOI identifier) used in von Schantz & Ehtamo. (under revision). <em>Minimizing the evacuation time of a crowd from a complex building using rescue guides</em>. 
 
-The paper presents a procedure for solving the minimum time evacuation from a complex building using rescue guides, and this repository is its implementation. The crowd is modeled with the physics-inspired agent-based social force model. The solution procedure is a combined Monte Carlo simulation and genetic algorithm (GA). The GA iteratively searches for the optimal evacuation plan, while the evacuation plan is evaluated with Monte Carlo simulations.
+The paper presents a procedure for solving the minimum time evacuation from a complex building using rescue guides, and this repository is its implementation. The crowd is modeled with the physics-inspired agent-based social force model. The solution procedure is a combined numerical simulation and genetic algorithm (GA). The GA iteratively searches for the optimal evacuation plan, while the evacuation plan is evaluated with numerical simulations.
 
 The repository includes codes for the GA, simulation and a graphical user interface (GUI). The folders in the repository:
 * crowddynamics-simulation contains files for running the GUI
@@ -14,9 +14,9 @@ The repository includes codes for the GA, simulation and a graphical user interf
 * genetic algorithm includes files to run the genetic algorithm
 * simulation files includes files specific for the simulating the conference building and hexagon-shaped area
 
-The evacuation simulation is implemented in Python and the GA is implemented as Bash scripts that were run on a high performance computing cluster. It should be noted that the procedure is currently computationally very demanding.
+The numerical evacuation simulations are implemented in Python and the GA is implemented as Bash scripts that were run on a high performance computing cluster. It should be noted that the procedure is currently computationally very demanding.
 
-See the "readme.txt" file in each folder for a more detailed overview of the codes in each folder. The evacuation simulation and its GUI is based on research assistant Jaan Tollander's codes https://github.com/jaantollander/crowddynamics and https://github.com/jaantollander/crowddynamics-qtgui, which he created when he was working in our research group in Aalto University School of Science, Department of Mathematics and Systems Analysis summers 2016 and 2017.
+See the "readme.txt" file in each folder for a more detailed overview of the codes in each folder. The numerical evacuation simulation and its GUI is based on research assistant Jaan Tollander's codes https://github.com/jaantollander/crowddynamics and https://github.com/jaantollander/crowddynamics-qtgui, which he created when he was working in our research group in Aalto University School of Science, Department of Mathematics and Systems Analysis summers 2016 and 2017.
 
 Using Linux is recommended. The code works at least on Ubuntu 16.04. Do the following steps to install the repository:
 * Install anaconda (https://docs.anaconda.com/anaconda/install/linux)
