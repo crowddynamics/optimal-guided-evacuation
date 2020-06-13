@@ -35,10 +35,10 @@ onepointcrossover_tags.py
 The onepointcrossover operation for the tags.
 
 mutation.py
-The onepointcrossover operation for the genes.
+The mutation operation for the genes.
 
 mutation_tags.py
-The onepointcrossover operation for the tags.
+The mutation operation for the tags.
 
 plot_stochastic.sh / plot_deterministic.sh
 A script that calls the file "generation_vs_evactime_stochastic.py" or "generation_vs_evactime_deterministic.py".
