@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3831338.svg)](https://doi.org/10.5281/zenodo.3831338)
 
 
-Research code and data (for data click on DOI identifier) used in von Schantz & Ehtamo. (submitted manuscript). <em>Minimizing the evacuation time of a crowd from a complex building using rescue guides</em>. arXiv:2007.00509 [physics.soc-ph]. 
+Research code and data (for data click on DOI identifier) used in von Schantz & Ehtamo. (submitted manuscript). Minimizing the evacuation time of a crowd from a complex building using rescue guides. arXiv:2007.00509 [physics.soc-ph]. 
 
 The paper presents a procedure for solving the minimum time evacuation from a complex building using rescue guides, and this repository is its implementation. The crowd is modeled with the physics-inspired agent-based social force model. The solution procedure is a combined numerical simulation and genetic algorithm (GA). The GA iteratively searches for the optimal evacuation plan, while the evacuation plan is evaluated with numerical simulations.
 
